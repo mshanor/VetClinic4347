@@ -16,5 +16,11 @@ namespace VetClinic_Gui
         {
             InitializeComponent();
         }
+
+        private void Manage_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new InsertDeleteModify().Show();
+        }
     }
 }
